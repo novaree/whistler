@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/ear" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/ejbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/primary-source" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/projects" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/projects/logging" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/servlets" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/servlets/servlet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datamodel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datamodel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datamodel/ear" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datamodel/ejbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datamodel/primary-source" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datamodel/projects" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datamodel/projects/logging" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datamodel/servlets" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datamodel/servlets/servlet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webapp-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/whistler-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/whistler-core/ear" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/whistler-core/ejbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/whistler-core/projects" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/whistler-core/servlets" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/whistler-core/servlets/servlet" charset="UTF-8" />
+  </component>
+</project>
+

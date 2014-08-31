@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datamodel/datamodel.iml" filepath="$PROJECT_DIR$/datamodel/datamodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapp-api/webapp-api.iml" filepath="$PROJECT_DIR$/webapp-api/webapp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/whistler-api.iml" filepath="$PROJECT_DIR$/whistler-api.iml" />
+    </modules>
+  </component>
+</project>
+
