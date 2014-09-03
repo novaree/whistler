@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: dk.bytefactor.whistler.test.integration.UserManagerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.019 sec
