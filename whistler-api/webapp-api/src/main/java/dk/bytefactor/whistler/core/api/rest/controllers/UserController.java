@@ -126,4 +126,16 @@ public class UserController {
         userManager.saveUser( user );
         return new UpdateProfileResponse( user );
     }
+
+    @RequestMapping( value = "/viewProfile/{login}", method = RequestMethod.GET )
+    public @ResponseBody RestResponse viewProfile( @PathVariable( value = "login" ) String login ) {
+        if(( null == login )  || ( login.trim().equals( "" ))) {
+            return new ErrorResponse( ErrorResponse.EC_NO_EMPTY_FIELDS_ALLOWED, "No empty values allowed" );
+        }
+        User user = userManager.getUserByLogin( login );
+        if( null == user ) {
+            return new ErrorResponse( ErrorResponse.EC_NO_PROFILE_ATTACHED, "Cannot find user, no profile updated." );
+        }
+        return new ViewProfileResponse( user );
+    }
 }
