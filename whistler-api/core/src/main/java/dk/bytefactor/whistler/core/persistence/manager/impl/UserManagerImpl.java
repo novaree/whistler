@@ -33,6 +33,7 @@ public class UserManagerImpl implements UserManager {
             return user;
         } else {
             System.out.println( "Updating user" );
+            user.setPassword(MD5.getMD5( user.getPassword() ));
             return userDao.updateUser( user );
         }
 

@@ -3,7 +3,7 @@ package dk.bytefactor.whistler.core.api.rest.model;
 /**
  * Created by casper on 03/09/14.
  */
-public class CreateUserRequest {
+public class CreateUserRequest implements RestRequest {
     private String login;
     private String password;
 
@@ -29,5 +29,14 @@ public class CreateUserRequest {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public boolean validate() {
+        if(( null == login ) || ( null == password ) ||
+                ( login.trim().equals( "" )) || ( password.trim().equals("")) ) {
+            return false;
+        }
+        return true;
     }
 }

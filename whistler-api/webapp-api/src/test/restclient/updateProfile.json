@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest-client version="3.2.2"><request><http-version>1.1</http-version><http-follow-redirects/><URL>http://localhost:8080/rest/user/updateProfile</URL><method>POST</method><body><string content-type="application/json" charset="UTF-8">{
+	"login": "TarjanAbe",
+	"firstName": "Casper",
+	"lastName": "Helenius",
+	"emailAddress": "casper@day4day.org",
+	"address1": "Egegårdsparken 55",
+	"address2": "",
+	"zipCode": "4000",
+	"city": "Roskilde",
+	"state": "",
+	"country": "Denmark",
+	"publicProfile":"false"
+}</string></body></request></rest-client>

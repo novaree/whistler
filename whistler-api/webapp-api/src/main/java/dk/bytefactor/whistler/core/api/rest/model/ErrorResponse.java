@@ -7,6 +7,9 @@ public class ErrorResponse implements RestResponse {
     // Field validation errors
     public static final int EC_NO_EMPTY_FIELDS_ALLOWED = 100;
 
+    // Profile related errors
+    public static final int EC_NO_PROFILE_ATTACHED = 200;
+
     // Entity validation errors
     public static final int EC_LOGIN_ALREADY_REGISTERED = 400;
 
